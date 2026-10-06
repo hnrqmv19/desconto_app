@@ -1,9 +1,9 @@
-from src.controllers.pedido_controller import PedidoController
-from src.repositories.pedido_repository import PedidoRepository
-from src.services.pedido_service import PedidoService
-from src.database.connection import DatabaseConnection
-from src.models.pedido import Pedido
-from src.models.desconto import DescontoNormal, DescontoVIP, DescontoPremium
+from src_antigo.controllers.pedido_controller import PedidoController
+from src_antigo.repositories.pedido_repository import PedidoRepository
+from src_antigo.services.pedido_service import PedidoService
+from src_antigo.database.connection import DatabaseConnection
+from src_antigo.models.pedido import Pedido
+from src_antigo.models.desconto import DescontoNormal, DescontoVIP, DescontoPremium
 
 if __name__ == "__main__":
     database = DatabaseConnection()
